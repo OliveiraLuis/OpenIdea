@@ -1,0 +1,43 @@
+
+.mdl-layout__header .material-icons, .c {
+    color: #767777 !important;
+  }
+  .mdl-layout__header{ background: #fff;}
+html { height: 100%; overflow: hidden; }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 1px;
+}
+h1 {
+    text-align: center;
+    font-size: 400%;
+    color: #fff;
+    text-shadow: 0 2px 2px #000;
+}
+#secao1 {
+    background: no-repeat;
+    background-image: url(../imagens/cri.jpg);
+    background-size: cover;
+
+}
+#secao2 {
+    background-image: url(../imagens/ide.jpg);
+    transform: translateZ(-10px);
+    z-index: -1;
+}
+#secao3 {
+    background-image: url(../imagens/dev.jpg);
+    background-size: cover;
+}
+.slide {
+    position: relative;
+    padding: 22% 5%;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+    transform-style: inherit;
+}
+p { text-align: center;color: #fff;  font-size: 30px; text-shadow: 0 2px 2px #000; }
